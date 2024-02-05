@@ -58,7 +58,8 @@
     padding-right: 80px;
   }
   .citrusStylesSE__pov .content-wrapper__pov-content--middle {
-    align-content: flex-start;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
   }
   .citrusStylesSE__pov .citrusStylesSE__text--heading{
     color: var(--citrusStylesSE-brown-light);
@@ -137,7 +138,8 @@
   }
   .citrusStylesSE__benefit .citrusStylesSE-card__body{
     height: 205px;
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     background-color: rgba(100, 201, 209, 10%);
   }
   .citrusStylesSE__benefit .citrusStylesSE-card img {
@@ -379,7 +381,9 @@
   .content-wrapper__logo{
     padding-top: 22px;
     padding-left: 22px;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     width: 100%;
   }
   .citrusStylesSE__pov .content-wrapper__logo img{
@@ -387,14 +391,20 @@
     max-width: 132px;
   }
   .content-wrapper__pov-content--left{
-    flex-wrap: wrap;
-    align-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
   }
   .content-wrapper__pov-content--middle{
     padding-left: 22px;
     text-align: left;
-    align-items: flex-start;
-    justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .citrusStylesSE__pov .pov2 .citrusStylesSE__text--heading {
   margin-top: 11px;
@@ -421,7 +431,9 @@
     margin-top: 7px;
   }
   .content-wrapper__pov-content-cta{
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
@@ -500,7 +512,10 @@
     font-size: 16px;
   }
   .citrusStylesSE__benefit .citrusStylesSE__benefit-footer{
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .citrusStylesSE__benefit .citrusStylesSE-button.citrusStylesSE-button-common{
   padding: 17.30px 61.26px 4.29px 61.21px; 
@@ -558,7 +573,10 @@
     margin-top: 5px;
   }  
   .citrusStylesSE__productBanner .citrusStylesSE-grid{
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .citrusStylesSE__productBanner .citrusStylesSE__text--heading {
     margin-top: 43px;
