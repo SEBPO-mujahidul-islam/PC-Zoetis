@@ -45,19 +45,19 @@
     max-width: 1440px;
     margin: 0 auto;
   }
-  .citrusStylesSE__pov .pov1 .content-wrapper__logo img {
+  .pov1 .content-wrapper__logo img {
     padding-left: 78px;
     padding-right: 102px;
   }
-  .citrusStylesSE__pov .pov2 .content-wrapper__logo img {
+  .pov2 .content-wrapper__logo img {
     padding-left: 78px;
     padding-right: 106px;
   }
-  .citrusStylesSE__pov .pov3 .content-wrapper__logo img {
+  .pov3 .content-wrapper__logo img {
     padding-left: 80px;
     padding-right: 80px;
   }
-  .citrusStylesSE__pov .content-wrapper__pov-content--middle {
+  .content-wrapper__pov-content--middle {
     -ms-flex-line-pack: start;
         align-content: flex-start;
   }
@@ -81,16 +81,16 @@
   .citrusStylesSE__pov .splide__arrow--prev, .citrusStylesSE__pov .splide__arrow--next {
     display: none;
   }
-  .citrusStylesSE__pov .pov2 .citrusStylesSE-button.citrusStylesSE-button-common{
+  .pov2 .citrusStylesSE-button.citrusStylesSE-button-common{
     margin-top: 9px;
   }
-  .citrusStylesSE__pov .pov3 .citrusStylesSE-button.citrusStylesSE-button-common{
+  .pov3 .citrusStylesSE-button.citrusStylesSE-button-common{
     margin-top: 11px;
   }
-  .citrusStylesSE__pov .pov3 .citrusStylesSE__text--disclaimer{
+  .pov3 .citrusStylesSE__text--disclaimer{
     margin-top: 5px;
   }
-  .citrusStylesSE__pov .pov2 .citrusStylesSE__text--disclaimer{
+  .pov2 .citrusStylesSE__text--disclaimer{
     max-width: 60%;
     margin-left:auto;
     margin-right:auto;
@@ -482,7 +482,7 @@
     line-height: 31px;
     max-width: 85%;
   }
-  .citrusStylesSE__pov .citrusStylesSE__text--heading {
+  .citrusStylesSE__pov .pov2 .citrusStylesSE__text--heading {
     font-size: 23px;
     line-height: 28px;
     margin-top: 18px;    
@@ -523,6 +523,9 @@
   /* benefit max-768 e */
 
   /* Product comparision Section max-768 */
+  .citrusStylesSE__compare {
+    margin-top: 22px;
+  }
   .citrusStylesSE__compare .citrusStylesSE-container {
     margin-top: 27px;
   }
@@ -663,6 +666,10 @@
 @media (max-width: 320px) {
   .citrusStylesSE__footer  {
     margin-top: 100px;
+  }
+  .citrusStylesSE__pov .pov2 .citrusStylesSE__text--heading {
+    font-size: 20px;
+    line-height: 22px;
   }
 }
 /*========= responsive styles e ===========*/
